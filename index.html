@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Weather App</title>
+</head>
+<body>
+  <div class="container">
+    <section id="containerSearchArea">
+      <div class="searchInput">
+        <input type="text" on="this.value='';" class="inputCityName" placeholder="City">
+        <ul class="cityList">
+        </ul>
+      </div>
+      <footer id="footerSearchArea">
+        <p>Created by <a href="https://github.com/deivisondelmiro" target="_blank">Deivison Delmiro</a>. Images by <a href="https://uxwing.com/" target="_blank">UXWing</a></p>
+      </footer>
+    </section>
+    <main>
+      <section id="showMainWeather">
+        <h1 id="cityNameTitle">City</h1>
+        <img id="mainImgWeather" src="./img/sun-warm-icon.png" alt="Weather Icon">
+        <h3><span id="currentTemperature">0</span>°C</h3>
+      </section>
+      <section id="ohtersInfo">
+        <section class="wind">
+          <h2>Wind</h2>
+          <h3><span id="windInfo">0</span>km/h</h3>
+        </section>
+        <section id="maximumTemperature">
+          <h2>Apparent Temperature</h2>
+          <h3><span id="apparentInfo">0</span>°C</h3>
+        </section>
+        <section id="humidity">
+          <h2>Humidity</h2>
+          <h3><span id="humidityInfo">0</span>%</h3>
+        </section>
+      </section>
+      <section id="containerOtherDays">
+        <section class="otherDay">
+        <img id="imgYesterday" src="./img/sun-warm-icon.png" alt="Weather Icon">
+          <h3><span id="temperatureYesterday">0</span>°C</h3>
+          <h4>Yesterday</h4>
+        </section>
+        <section class="otherDay">
+        <img id="imgToday" src="./img/sun-warm-icon.png" alt="Weather Icon">
+          <h3><span id="temperatureTodayMaximum">0</span>°C</h3>
+          <h4>Today</h4>
+        </section>
+        <section class="otherDay">
+        <img id="imgTomorrow" src="./img/sun-warm-icon.png" alt="Weather Icon">
+          <h3><span id="temperatureTomorrow">0</span>°C</h3>
+          <h4>Tomorrow</h4>
+        </section>
+      </section>
+      <footer id="footerMainArea">
+        <p>Created by <a href="https://github.com/deivisondelmiro" target="_blank">Deivison Delmiro</a>. Images by <a href="https://uxwing.com/" target="_blank">UXWing</a></p>
+      </footer>
+    </main>
+  </div>
+  <!-- <input type="button" value="Pesquisar" class="buttonResult"> -->
+  <script type="module" src="./js/main.js"></script>
+</body>
+</html>
