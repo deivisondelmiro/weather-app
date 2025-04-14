@@ -23,7 +23,7 @@ Para acessar a página, clique <a href="https://deivisondelmiro.github.io/weathe
 
 - JavaScript
 
-<h2 id="subtitle">Pontos trabalhados na aplicação</h2>
+<h2 id="subtitle">Pontos Trabalhados</h2>
 
 - Módulos
 
